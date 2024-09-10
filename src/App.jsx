@@ -49,7 +49,7 @@ export const App = () => {
           // Render QR code, download button, and repeat button
           <>
             {/* Display generated QR code image */}
-            <img className="qr-image" src={qr} alt="QR Code" />
+            <img className="generated-qr-image" src={qr} alt="QR Code" />
             {/* Download button for the generated QR code */}
             <button onClick={downloadQRCode} aria-label="Download QR Code">
               Download
@@ -63,7 +63,7 @@ export const App = () => {
       </div>
       {/* footer */}
       <footer>
-        <img src="src/assets/MyPortfolioQR.png" alt="My Portfolio QR Code" className="qr-image" />
+        <img src="/resources/MyPortfolioQR.png" alt="My Portfolio QR Code" className="qr-image" />
         <p>Just a QR code away from where you want to be!</p>
       </footer>
     </div>
