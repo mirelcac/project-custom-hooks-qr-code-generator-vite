@@ -63,7 +63,8 @@ export const App = () => {
       </div>
       {/* footer */}
       <footer>
-        <p>Thank you for visiting, come back anytime!</p>
+        <img src="src/assets/MyPortfolioQR.png" alt="My Portfolio QR Code" className="qr-image" />
+        <p>Just a QR code away from where you want to be!</p>
       </footer>
     </div>
   );

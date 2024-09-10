@@ -43,7 +43,7 @@ export const useQRCodeGenerator = () => {
         margin: 1,
         color: {
           dark: '#333',
-          light: '#ee8f8f',
+          light: '#FFFFFF00',
         },
       });
 

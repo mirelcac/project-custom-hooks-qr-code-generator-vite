@@ -95,7 +95,7 @@ button {
   margin-bottom: 40px;
 }
 
-.qr-image {
+.generated-qr-image {
   margin-bottom: 40px;
 }
 
@@ -107,6 +107,17 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+}
+
+.qr-image {
+  width: 70px;
+  /* Smaller size for the footer */
+  height: auto;
+  position: absolute;
+  bottom: 10px;
+  /* Distance from the bottom */
+  right: 70px;
+  /* Distance from the right */
 }
 
 @media (max-width: 450px) {
